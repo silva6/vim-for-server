@@ -82,9 +82,9 @@ set softtabstop=4                " insert mode tab and backspace use 4 spaces
 
 " NOT SUPPORT
 " fold
-set foldenable
-set foldmethod=indent
-set foldlevel=99
+" set foldenable
+" set foldmethod=indent
+" set foldlevel=99
 let g:FoldMethod = 0
 map <leader>zz :call ToggleFold()<cr>
 fun! ToggleFold()
